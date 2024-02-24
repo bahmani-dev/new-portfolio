@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-
+import ReorderIcon from '@mui/icons-material/Reorder';
 const  Header = () =>{
   return (
 <header>
@@ -10,8 +10,8 @@ const  Header = () =>{
       height={20}></Image> 
       <p className='font-bold '>Personal</p>
     </div>
-    <div>
- 
+    <div className='flex items-center pr-5'>
+    <ReorderIcon/>
     </div>
   </div>
 
