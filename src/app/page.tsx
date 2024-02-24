@@ -1,11 +1,14 @@
 import Image from "next/image";
-import {Hero} from "@/component"
+import {Hero} from "@/component";
+import Header from "./layout";
 
 
 export default function Home() {
   return (
-    <Hero/>>
-  <h1>hi</h1>
+    <>
+    <Header/>
+    <Hero/>
+    </>
   );
 }
  
