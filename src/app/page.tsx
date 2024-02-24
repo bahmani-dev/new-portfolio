@@ -1,6 +1,6 @@
 import Image from "next/image";
-import {Hero} from "@/component";
-import Header from "./layout";
+import Hero from "../component/hero";
+import Header from "./layout/header";
 
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
     <>
     <Header/>
     <Hero/>
+    <p>Hello</p>
     </>
   );
 }
